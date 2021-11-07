@@ -1,3 +1,9 @@
+# ai
+favicon.ai
+
+# . files
+.github/
+
 # Logs
 logs
 *.log
@@ -9,7 +15,7 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
-
+.firebaserc
 # Firebase config
 
 # Uncomment this if you'd like others to create their own Firebase project.

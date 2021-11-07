@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portfolio</title>
+    
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon-01.png"/>
+    <link rel="stylesheet" type="text/css" href="../style/mainstyle.css">
+    
+    <!--
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" type="text/css" href="../style/ministyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" type="text/css" href="../style/mobilestyle.css">
+    <link href="../style/magnific-popup.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="files/imageplacement.css">
+    <link href="../style/skrollr.css" type="text/css" rel="stylesheet">
+    -->
+    
+    <link rel="stylesheet" href="https://use.typekit.net/gzr6jao.css">
+</head>
+
+<body class="contentBody">
+    <nav class="static skrollr-init skrollr-static"
+        style="color: black;">
+        <div class="navContainer">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../resume.html">Resum&#233;</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <ul class="sub">
+            <li><a href="design.html">Design</a></li>
+            <li><a target="_blank" href="https://www.github.com/amandaxay">Coding</a></li>
+            <li><a href="web.html">Web</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main id="skrollr-body" class="contentMain">
+    <header style="text-align: center;">
+        <h1>Websites</h1>
+    </header>
+    <section>
+        <h2>PUBLISHED SITES</h2>
+        <div class="galleryGrid clearfix">
+            <a href="http://dtc-wsuv.org/asouriyamath20/blackbird/" class="gridItem" id="Blackbird" target="_blank">
+            </a>
+            <a href="http://dtc-wsuv.org/asouriyamath20/recipe/" class="gridItem" id="Recipe" target="_blank">
+            </a>
+            <a href="http://dtc-wsuv.org/asouriyamath20/interactive/" class="gridItem" id="Interactive" target="_blank">
+            </a>
+            <a href="http://dtc-wsuv.org/asouriyamath20/chopblock/" class="gridItem" id="Chopblock" target="_blank">
+            </a>
+            <a href="http://dtc-wsuv.org/asouriyamath20/map-project/" class="gridItem" id="MapProject" target="_blank">
+            </a>
+            <a href="http://dtc-wsuv.org/asouriyamath20/textproject/" class="gridItem" id="textProject" target="_blank">
+            </a>
+            <!-- https://dtc-wsuv.org/asouriyamath20/map-project/ -->
+            <a href="http://wsuvtech4students.org/" class="gridItem" id="shs" target="_blank">
+            </a>
+        </div>
+    </section>
+    </main>
+<!-- SCRIPTS INIT -->
+    <script src="scripts/skrollr.min.js"></script>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+        });
+    </script>
+<!-- SCRIPTS EXPANDED -->
+    <script>
+        $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+        });
+    </script>
+</body>
+</html>
