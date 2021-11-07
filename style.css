@@ -1,0 +1,420 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* end reset*/
+
+/* nav bar */
+#navbar {
+  background-color: #f7f7f7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+.appear2 {
+  animation: appearText 1.7s;
+}
+.appear {
+  animation: appearText 3s;
+}
+@keyframes appearText {
+  0% {
+    color: transparent;
+  }
+  60% {
+    color: transparent;
+  }
+  80% {
+    color: #000;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+li {
+  float: left;
+  padding-left: 20px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: lightgray;
+}
+
+/* end nav bar */
+
+body {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: white;
+}
+
+#iframe {
+  margin: 0 auto;
+  padding: 0 5% 0 5%;
+}
+
+#wrapper {
+  padding-top: 60px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 45px;
+}
+
+#description p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#container {
+  padding-top: 3%;
+  border-radius: 4px;
+  border: 1px solid #080c26;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 80px;
+  font-family: "DM Serif Display", serif;
+  padding: 1%;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-family: "Sanchez", serif;
+  font-size: 68px;
+  width: 500px;
+}
+
+h3 {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
+  padding-left: 10%;
+  font-size: 44px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+h5 {
+  padding-left: 10%;
+  color: black;
+  font-size: 22px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-size: 24px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  background-color: #f7f7f7;
+}
+
+/* about page css here */
+
+.description {
+  text-align: left;
+  color: black;
+  font-size: 1.4em;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* end about page css*/
+
+/*design page css starts here */
+
+#griddesign {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  /*padding: 6%;*/
+}
+
+#griddesign img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin: 2%;
+  min-width: 100%;
+  min-height: auto;
+}
+
+#griddesign a:hover img {
+  opacity: 0.5;
+}
+
+/* end design page css */
+
+/* start page css here */
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.5%;
+  color: white;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#grid-container > div {
+  text-align: center;
+  padding: 3%;
+  font-size: 30px;
+}
+
+#grid-container > div > img {
+  width: 80%;
+  height: 60%;
+  object-fit: cover;
+}
+
+/* end photography page css */
+/*end mobile styles */
+
+/* begin tablet styles */
+@media only screen and (min-width: 100px) and (max-width: 1000px) {
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0.5%;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+
+  #griddesign {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0.5em;
+    padding: 6%;
+  }
+}
+/*end tablet styles*/
+
+/* begin desktop styles */
+@media only screen and (min-width: 1001px) {
+  .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 2%;
+    text-align: center;
+  }
+
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5%;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+
+  #griddesign {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0.5em;
+    padding: 6%;
+  }
+}
+/* end desktop styles*/
