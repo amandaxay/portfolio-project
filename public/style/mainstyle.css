@@ -101,7 +101,7 @@ nav {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 30px;
   padding-bottom: 12px;
 }
 nav ul {
@@ -114,14 +114,13 @@ nav ul.sub li {
   width: 30%;
   margin-left: 1%;
   margin-right: 1%;
-  font-size: 1em;
   font-weight: lighter;
 }
 nav ul li {
   float: left;
   list-style: none;
   width: 25%;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   font-variant: small-caps;
   letter-spacing: 5px;
@@ -1303,29 +1302,6 @@ body {
   opacity: 0.5;
   z-index: 1;
 }
-#Aegislayer {
-  background-image: url(../works/files/branding/aegislayer.png);
-}
-#GekkoTech {
-  background-image: url(../works/files/branding/gekkoTech.png);
-}
-#Riverhawk {
-  background-image: url(../works/files/branding/riverhawks.png);
-}
-#MamaJamu {
-  background-image: url(../works/files/branding/mamaJamu.png);
-}
-#SysNominal {
-  background-image: url(../works/files/branding/systemsNominal.png);
-}
-/* ANIMATIONS */
-#NatGeo {
-  background-image: url(../works/files/animations/NatGeo.png);
-}
-#LetsTalk {
-  background-image: url(../works/files/animations/LetsTalk.png);
-}
-
 /* POSTERS / BANNERS */
 #TutoringPoster {
   background-image: url(../works/files/PostersBanners/tutoringposter.png);
