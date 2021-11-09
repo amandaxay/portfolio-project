@@ -1,1 +1,1 @@
-![resume](https://github.com/amandaxay/portfolio-project/resume.png)
+![resume](https://github.com/amandaxay/portfolio-project/tree/main/resume.png)
